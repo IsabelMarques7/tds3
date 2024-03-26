@@ -29,7 +29,7 @@ h1,h2,h3,h4,h5{
   font-family: "Gemunu Libre", sans-serif;
 }
 
-p{
+p, label{
   color: var(--text-p);
 }
 
@@ -60,15 +60,4 @@ a:hover{
 
 .leaflet-top{
   z-index: 888;
-}
-
-label, p{
-  color: var(--text-p);
-}
-
-.inputDiv{
-  padding: 1.8em;
-  height: auto;
-  background-color: red;
-  border: 2px solid var(--text-title);
 }
